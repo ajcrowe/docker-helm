@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-ENV VERSION v2.5.1
+ENV VERSION v2.7.0
 
 RUN apk add --no-cache --virtual build-dependencies curl && \
     mkdir -p /tmp/helm && \
